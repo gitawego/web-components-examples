@@ -4,7 +4,12 @@
   "main": "index.js",
   "repository": "https://github.com/gitawego/web-components-examples",
   "license": "MIT",
+  "scripts": {
+    "watch": "tsc --watch",
+    "cli:dev": "DEBUG=depDownloader node ./dist/cli.js"
+  },
   "devDependencies": {
+    "@types/debug": "^0.0.30",
     "@types/download": "^6.2.2",
     "@types/node": "^10.11.0",
     "@types/shelljs": "^0.8.0",
@@ -14,6 +19,8 @@
     "typescript": "^3.0.3"
   },
   "dependencies": {
+    "caporal": "^0.10.0",
+    "debug": "^4.0.1",
     "download": "^7.1.0",
     "shelljs": "^0.8.2"
   }

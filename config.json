@@ -1,0 +1,8 @@
+{
+  "repository": "https://raw.githubusercontent.com/gitawego/web-components-examples/master/repository/",
+  "dependencies": {
+    "composed-composed-path": "1.0",
+    "defined-pseudo-class": "1.0"
+  },
+  "targetFolder": "testRepo"
+}

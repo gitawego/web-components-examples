@@ -1,13 +1,14 @@
 {
-    "compilerOptions": {
-      "module": "commonjs",
-      "target": "es2015",
-      "importHelpers": true,
-      "strict": true,
-      "noEmitHelpers": true,
-      "sourceMap": true,
-      "strictNullChecks": false,
-      "lib": ["dom", "es2015", "es2016"]
-    }
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2015",
+    "importHelpers": true,
+    "strict": true,
+    "noEmitHelpers": true,
+    "sourceMap": true,
+    "strictNullChecks": false,
+    "outDir": "dist",
+    "rootDir": "src",
+    "lib": ["dom", "es2015", "es2016"]
   }
-  
+}
